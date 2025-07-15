@@ -10,6 +10,15 @@ class SuperAles:
     def description(self): 
         return f"{self.name}: {self.abv*100:.1f}% ABV"
 
+PaleAle = SuperAles("Pale Ale", 0.055, 12)
+
+IPA = SuperAles("IPA", 0.065, 12)
+
+Stout = SuperAles("Stout", 0.07, 12)
+
+Porter = SuperAles("Porter", 0.06, 12)
+
+
 
 
 
