@@ -9,7 +9,7 @@ a string, is turned into a float number and then subsequently concatenated to "t
 My code goes through every item in a list and adds one to a variable, "count", for every item it encounters (count begins at a 
 value of zero). It also adds the float value of the item to variable named "avg" (which also begins with a value of zero). 
 Another variable named "max_temp" is also assigned to the item in the list with a value greater than its current value (zero).
-And yet, another variable, "min_temp", is assigned to the next item in the list with a smaller value than its current value (100)
+And yet, another variable, "min_temp", is assigned to the next item in the list with a smaller value than its current value (100).
 Three lines are then printed which state: The total number of items in the list (by returning variable "count"), the average value
 of the data set (by dividing the value of "avg" by the value of "count"), the highest value in the data set (by returning the
 variable "max_temp) and the lowest value in the data set (by returning the variable "min_temp"). The solution code operates in 
