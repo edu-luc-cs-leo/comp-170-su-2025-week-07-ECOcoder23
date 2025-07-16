@@ -23,4 +23,4 @@ input passage essentially from scratch, starting with an empty string named "out
 are modified by first being split into a string which contains all the characters except the first. After excluding the first 
 character, the word is turned into a uppercase version of itself if it was stripped of a ".", and has spaces concatenated between 
 each of its characters if it was stripped of a "_". Finally, the modified words and all other words in the passage are concatenated
-to "output_line" with the apporpriate spaces between them and returned as the function output. 
+to "output_line" with the appropriate spaces between them and returned as the function output. 
