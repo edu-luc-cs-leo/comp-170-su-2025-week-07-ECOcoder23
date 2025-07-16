@@ -1,0 +1,26 @@
+                                                Review 
+
+        The code for my function "load_to_list" is almost indistinguishable from the solution code, save for differences in 
+variable names. Just as the solution code does, my function begins by creating an empty list ("temp_list"). It then creates
+a path to the file "temperatures.txt" through which is extracts data one line at a time. Each line, which is in the form of 
+a string, is turned into a float number and then subsequently concatenated to "temp_list". 
+
+        My function "descriptive_statistics" also uses code that closely mimics the solution code save for minor differences.
+My code goes through every item in a list and adds one to a variable, "count", for every item it encounters (count begins at a 
+value of zero). It also adds the float value of the item to variable named "avg" (which also begins with a value of zero). 
+Another variable named "max_temp" is also assigned to the item in the list with a value greater than its current value (zero).
+And yet, another variable, "min_temp", is assigned to the next item in the list with a smaller value than its current value (100)
+Three lines are then printed which state: The total number of items in the list (by returning variable "count"), the average value
+of the data set (by dividing the value of "avg" by the value of "count"), the highest value in the data set (by returning the
+variable "max_temp) and the lowest value in the data set (by returning the variable "min_temp"). The solution code operates in 
+a similar fashion, but finds the maximum and minimum values of the data set by comparing each subsequent item in the list to the
+first one, making the next item the maximum value if greater in value or the minimum value if less in value. 
+
+        My function "apply_markup" does not fully work as intended as it only strips the "." and "_" characters from any words
+which begin with these characters in a passage, but does not successfuly further modify them. My code, as opposed to the solution
+code, oversimplifies the proccess needed to properly "markup" the input passage. Unlike my code, the solution code rebuilds the 
+input passage essentially from scratch, starting with an empty string named "output_line". The words which begin with "." or "_" 
+are modified by first being split into a string which contains all the characters except the first. After excluding the first 
+character, the word is turned into a uppercase version of itself if it was stripped of a ".", and has spaces concatenated between 
+each of its characters if it was stripped of a "_". Finally, the modified words and all other words in the passage are concatenated
+to "output_line" with the apporpriate spaces between them and returned as the function output. 
